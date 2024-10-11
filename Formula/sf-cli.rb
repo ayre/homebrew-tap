@@ -1,6 +1,6 @@
 class SfCli < Formula
-    desc "An example formula"
-    homepage "https://example.com"
+    desc "Command line toolkit for Salesforce development"
+    homepage "https://developer.salesforce.com/tools/salesforcecli"
     url "https://registry.npmjs.org/@salesforce/cli/-/cli-2.61.8.tgz"
     sha256 "6d7388565f83c15edd2ad05d1f42737de64680b8ea18a7f569435e93e00d6620"
   
