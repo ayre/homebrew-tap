@@ -1,4 +1,4 @@
-cask "sf-data-loader" do
+cask "data-loader" do
     version "62.0.1"
     sha256 ""
   
@@ -7,8 +7,8 @@ cask "sf-data-loader" do
     desc ""
     homepage "https://developer.salesforce.com/tools/data-loader"
   
-    depends_on formula: "openjdk"
     auto_updates false
+    depends_on formula: "openjdk"
 
     installer script: {
         executable: "install.command",
