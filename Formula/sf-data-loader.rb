@@ -7,11 +7,12 @@ cask "sf-data-loader" do
     desc ""
     homepage "https://developer.salesforce.com/tools/data-loader"
   
-    depends_on formula: "openjdk" => :recommended
+    depends_on formula: "openjdk"
     auto_updates false
 
     installer script: {
-        executable: "install.command"
+        executable: "install.command",
         must_succeed: true
     }
+
   end
