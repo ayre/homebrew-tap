@@ -12,7 +12,7 @@ cask "sf-data-loader" do
 
     installer script: {
         executable: "install.command",
-        must_succeed: true
+        must_succeed: true,
     }
 
   end
