@@ -2,7 +2,7 @@ class SfCli < Formula
     desc "An example formula"
     homepage "https://example.com"
     url "https://registry.npmjs.org/@salesforce/cli/-/cli-2.61.8.tgz"
-    sha256 "df80fec6fd420f40a703ece40718a1d6f22cafee"
+    sha256 "6d7388565f83c15edd2ad05d1f42737de64680b8ea18a7f569435e93e00d6620"
   
     depends_on "node"
     # uncomment if there is a native addon inside the dependency tree
