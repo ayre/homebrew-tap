@@ -1,4 +1,4 @@
-class SalesforceCli < Formula
+class SfCli < Formula
     desc "An example formula"
     homepage "https://example.com"
     url "https://registry.npmjs.org/@salesforce/cli/-/cli-2.61.8.tgz"
